@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>InstaTrack</title>
+  <link rel="stylesheet" href="ui.css">
+</head>
+<body class="popup">
+  <header class="topbar">
+    <span class="brand">
+      <span class="logo" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20c.8-3.5 3.3-5.5 6.5-5.5s5.7 2 6.5 5.5"/><path d="M17 4.5a3.5 3.5 0 0 1 0 7M19 14.8c1.4.9 2.2 2.6 2.5 5.2"/></svg></span>
+      InstaTrack
+    </span>
+  </header>
+  <main class="stack">
+    <button id="scan" class="btn btn-lg btn-block">Scan followers</button>
+    <div id="progress" class="progress" hidden></div>
+    <p id="status" class="notice" role="status" aria-live="polite"></p>
+    <div id="results" class="stack"></div>
+  </main>
+  <script src="ui.js"></script>
+  <script src="diff.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>

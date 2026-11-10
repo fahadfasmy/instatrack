@@ -1,0 +1,16 @@
+# Pro / cloud sync is on hold: kept locally, not published yet.
+account.html
+account.js
+background.js
+cloud.js
+cloud.test.js
+config.js
+web/
+cloud/
+build-site.ps1
+README-cloud.md
+store/
+
+# Build output (release zips are attached to GitHub releases instead)
+dist/
+.claude/
